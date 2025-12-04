@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="tests" name="Failed suite [Parameter]" guice-stage="DEVELOPMENT">
+  <parameter name="password" value="admin"/>
+  <parameter name="username" value="admin"/>
+  <test thread-count="3" parallel="tests" name="EdgeTest(failed)">
+    <parameter name="Broswer" value="edge"/>
+    <classes>
+      <class name="testscript.ManageNewsPageTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="moveToManageNewsPage"/>
+          <include name="afterMethod"/>
+          <include name="UpdateNewsInfo"/>
+          <include name="addNewsInfo"/>
+        </methods>
+      </class> <!-- testscript.ManageNewsPageTest -->
+    </classes>
+  </test> <!-- EdgeTest(failed) -->
+</suite> <!-- Failed suite [Parameter] -->

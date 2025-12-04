@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="parallelTest" parallel="classes" thread-count="5">
+	<listeners>
+		<listener class-name="generatereport.Listeners"></listener>
+	</listeners>
+	<test name="paralleltesting">
+	<parameter name="username" value="admin"></parameter>
+		<parameter name="password" value="admin"></parameter>
+		<parameter name="Browser" value="chrome"/>	
+		<classes>
+			<class name="testscript.LoginPageTest" />
+			<class name="testscript.AdminUsersPageTest"></class>
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->

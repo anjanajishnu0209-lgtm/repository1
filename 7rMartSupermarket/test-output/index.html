@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-parallelTest" class="navigator-link">
+              <span class="suite-name border-passed">parallelTest</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-parallelTest" class="navigator-link ">
+                    <span>C:\Users\jishn\git\repositoryselenium\7rMartSuperMarket\paralleltesting.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-parallelTest" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-parallelTest" class="navigator-link ">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-parallelTest" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-parallelTest" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-parallelTest" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-parallelTest" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">7 methods,   7 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-parallelTest" class="hide-methods passed suite-parallelTest"> (hide)</a> <!-- hide-methods passed suite-parallelTest -->
+                      <a href="#" panel-name="suite-parallelTest" class="show-methods passed suite-parallelTest"> (show)</a> <!-- show-methods passed suite-parallelTest -->
+                    </span>
+                    <div class="method-list-content passed suite-parallelTest">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-parallelTest" title="testscript.LoginPageTest" class="method navigator-link" hash-for-method="invalidPasswordAndValidUsername">invalidPasswordAndValidUsername</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-parallelTest" title="testscript.LoginPageTest" class="method navigator-link" hash-for-method="invalidUsernameAndPassqord">invalidUsernameAndPassqord</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-parallelTest" title="testscript.LoginPageTest" class="method navigator-link" hash-for-method="invalidUsernameAndValidPassword(testt, admin)">invalidUsernameAndValidPassword(testt, admin)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-parallelTest" title="testscript.AdminUsersPageTest" class="method navigator-link" hash-for-method="searchForAUserWithUsernameAndTypeTest(admin, admin)">searchForAUserWithUsernameAndTypeTest(admin, admin)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-parallelTest" title="testscript.AdminUsersPageTest" class="method navigator-link" hash-for-method="searchForAUserWithUsernameTest(admin, admin)">searchForAUserWithUsernameTest(admin, admin)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-parallelTest" title="testscript.AdminUsersPageTest" class="method navigator-link" hash-for-method="verifyAdminUserInfo(admin, admin)">verifyAdminUserInfo(admin, admin)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-parallelTest" title="testscript.LoginPageTest" class="method navigator-link" hash-for-method="verifyValidUsernameAndPassword(admin, admin)">verifyValidUsernameAndPassword(admin, admin)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-parallelTest -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-parallelTest" class="panel parallelTest">
+          <div class="suite-parallelTest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testscript.AdminUsersPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchForAUserWithUsernameAndTypeTest(admin, admin)">
+                  </a> <!-- searchForAUserWithUsernameAndTypeTest(admin, admin) -->
+                  <span class="method-name">searchForAUserWithUsernameAndTypeTest</span>
+                  <span class="parameters">(admin,admin)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchForAUserWithUsernameTest(admin, admin)">
+                  </a> <!-- searchForAUserWithUsernameTest(admin, admin) -->
+                  <span class="method-name">searchForAUserWithUsernameTest</span>
+                  <span class="parameters">(admin,admin)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAdminUserInfo(admin, admin)">
+                  </a> <!-- verifyAdminUserInfo(admin, admin) -->
+                  <span class="method-name">verifyAdminUserInfo</span>
+                  <span class="parameters">(admin,admin)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-parallelTest-class-passed -->
+          <div class="suite-parallelTest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testscript.LoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidPasswordAndValidUsername">
+                  </a> <!-- invalidPasswordAndValidUsername -->
+                  <span class="method-name">invalidPasswordAndValidUsername</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidUsernameAndPassqord">
+                  </a> <!-- invalidUsernameAndPassqord -->
+                  <span class="method-name">invalidUsernameAndPassqord</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidUsernameAndValidPassword(testt, admin)">
+                  </a> <!-- invalidUsernameAndValidPassword(testt, admin) -->
+                  <span class="method-name">invalidUsernameAndValidPassword</span>
+                  <span class="parameters">(testt,admin)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyValidUsernameAndPassword(admin, admin)">
+                  </a> <!-- verifyValidUsernameAndPassword(admin, admin) -->
+                  <span class="method-name">verifyValidUsernameAndPassword</span>
+                  <span class="parameters">(admin,admin)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-parallelTest-class-passed -->
+        </div> <!-- panel parallelTest -->
+        <div panel-name="test-xml-parallelTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\jishn\git\repositoryselenium\7rMartSuperMarket\paralleltesting.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite parallel=&quot;classes&quot; name=&quot;parallelTest&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;generatereport.Listeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;classes&quot; name=&quot;paralleltesting&quot;&gt;
+    &lt;parameter name=&quot;password&quot; value=&quot;admin&quot;/&gt;
+    &lt;parameter name=&quot;username&quot; value=&quot;admin&quot;/&gt;
+    &lt;parameter name=&quot;Browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testscript.LoginPageTest&quot;/&gt;
+      &lt;class name=&quot;testscript.AdminUsersPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- paralleltesting --&gt;
+&lt;/suite&gt; &lt;!-- parallelTest --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-parallelTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for parallelTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">paralleltesting (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-parallelTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for parallelTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">smoke</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">invalidUsernameAndValidPassword</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyValidUsernameAndPassword</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-parallelTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for parallelTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_parallelTest');
+function tableData_parallelTest() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(7);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifyAdminUserInfo')
+data.setCell(0, 2, 'testscript.AdminUsersPageTest')
+data.setCell(0, 3, 4935);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'invalidPasswordAndValidUsername')
+data.setCell(1, 2, 'testscript.LoginPageTest')
+data.setCell(1, 3, 3730);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'searchForAUserWithUsernameAndTypeTest')
+data.setCell(2, 2, 'testscript.AdminUsersPageTest')
+data.setCell(2, 3, 3469);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'searchForAUserWithUsernameTest')
+data.setCell(3, 2, 'testscript.AdminUsersPageTest')
+data.setCell(3, 3, 2519);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'invalidUsernameAndValidPassword')
+data.setCell(4, 2, 'testscript.LoginPageTest')
+data.setCell(4, 3, 1216);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyValidUsernameAndPassword')
+data.setCell(5, 2, 'testscript.LoginPageTest')
+data.setCell(5, 3, 1146);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'invalidUsernameAndPassqord')
+data.setCell(6, 2, 'testscript.LoginPageTest')
+data.setCell(6, 3, 954);
+window.suiteTableData['parallelTest']= { tableData: data, tableDiv: 'times-div-parallelTest'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 17 seconds</span>
+              <div id="times-div-parallelTest">
+              </div> <!-- times-div-parallelTest -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-parallelTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for parallelTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-parallelTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-parallelTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testscript.AdminUsersPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testscript.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(chrome)</span>
+                <span class="method-start">4 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testscript.AdminUsersPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyAdminUserInfo(admin, admin)</span>
+                <span class="method-start">3916 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testscript.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyValidUsernameAndPassword(admin, admin)</span>
+                <span class="method-start">3945 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=verifyValidUsernameAndPassword status=SUCCESS method=LoginPageTest.verifyValidUsern...)</span>
+                <span class="method-start">5103 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(chrome)</span>
+                <span class="method-start">5113 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">invalidUsernameAndValidPassword(testt, admin)</span>
+                <span class="method-start">7474 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=invalidUsernameAndValidPassword status=SUCCESS method=LoginPageTest.invalidUsername...)</span>
+                <span class="method-start">8695 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(chrome)</span>
+                <span class="method-start">8707 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testscript.AdminUsersPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=verifyAdminUserInfo status=SUCCESS method=AdminUsersPageTest.verifyAdminUserInfo(ja...)</span>
+                <span class="method-start">8853 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(chrome)</span>
+                <span class="method-start">8855 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">searchForAUserWithUsernameAndTypeTest(admin, admin)</span>
+                <span class="method-start">12372 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testscript.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">invalidPasswordAndValidUsername</span>
+                <span class="method-start">12554 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testscript.AdminUsersPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=searchForAUserWithUsernameAndTypeTest status=SUCCESS method=AdminUsersPageTest.sear...)</span>
+                <span class="method-start">15848 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(chrome)</span>
+                <span class="method-start">15851 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testscript.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=invalidPasswordAndValidUsername status=SUCCESS method=LoginPageTest.invalidPassword...)</span>
+                <span class="method-start">16286 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(chrome)</span>
+                <span class="method-start">16288 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">invalidUsernameAndPassqord</span>
+                <span class="method-start">20221 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=invalidUsernameAndPassqord status=SUCCESS method=LoginPageTest.invalidUsernameAndPa...)</span>
+                <span class="method-start">21177 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testscript.AdminUsersPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">searchForAUserWithUsernameTest(admin, admin)</span>
+                <span class="method-start">22229 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=searchForAUserWithUsernameTest status=SUCCESS method=AdminUsersPageTest.searchForAU...)</span>
+                <span class="method-start">24749 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

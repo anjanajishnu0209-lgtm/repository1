@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-11-28T13:42:13 IST" name="parallelTest" finished-at="2025-11-28T13:42:38 IST" duration-ms="24832">
+    <groups>
+      <group name="smoke">
+        <method signature="LoginPageTest.verifyValidUsernameAndPassword(java.lang.String,java.lang.String)[pri:1, instance:testscript.LoginPageTest@48e92c5c]" name="verifyValidUsernameAndPassword" class="testscript.LoginPageTest"/>
+        <method signature="LoginPageTest.invalidUsernameAndValidPassword(java.lang.String,java.lang.String)[pri:2, instance:testscript.LoginPageTest@48e92c5c]" name="invalidUsernameAndValidPassword" class="testscript.LoginPageTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2025-11-28T13:42:13 IST" name="paralleltesting" finished-at="2025-11-28T13:42:38 IST" duration-ms="24832">
+      <class name="testscript.LoginPageTest">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testscript.LoginPageTest@48e92c5c]" started-at="2025-11-28T13:42:13 IST" name="beforeMethod" finished-at="2025-11-28T13:42:17 IST" duration-ms="3941" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyValidUsernameAndPassword(java.lang.String,java.lang.String)[pri:1, instance:testscript.LoginPageTest@48e92c5c]" started-at="2025-11-28T13:42:17 IST" name="verifyValidUsernameAndPassword" finished-at="2025-11-28T13:42:18 IST" duration-ms="1146" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidUsernameAndPassword -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testscript.LoginPageTest@48e92c5c]" started-at="2025-11-28T13:42:18 IST" name="afterMethod" finished-at="2025-11-28T13:42:18 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyValidUsernameAndPassword status=SUCCESS method=LoginPageTest.verifyValidUsernameAndPassword(java.lang.String,java.lang.String)[pri:1, instance:testscript.LoginPageTest@48e92c5c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testscript.LoginPageTest@48e92c5c]" started-at="2025-11-28T13:42:18 IST" name="beforeMethod" finished-at="2025-11-28T13:42:21 IST" duration-ms="2361" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="invalidUsernameAndValidPassword(java.lang.String,java.lang.String)[pri:2, instance:testscript.LoginPageTest@48e92c5c]" started-at="2025-11-28T13:42:21 IST" name="invalidUsernameAndValidPassword" data-provider="credentials" finished-at="2025-11-28T13:42:22 IST" duration-ms="1216" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testt]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidUsernameAndValidPassword -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testscript.LoginPageTest@48e92c5c]" started-at="2025-11-28T13:42:22 IST" name="afterMethod" finished-at="2025-11-28T13:42:22 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidUsernameAndValidPassword status=SUCCESS method=LoginPageTest.invalidUsernameAndValidPassword(java.lang.String,java.lang.String)[pri:2, instance:testscript.LoginPageTest@48e92c5c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testscript.LoginPageTest@48e92c5c]" started-at="2025-11-28T13:42:22 IST" name="beforeMethod" finished-at="2025-11-28T13:42:26 IST" duration-ms="3847" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="invalidPasswordAndValidUsername()[pri:3, instance:testscript.LoginPageTest@48e92c5c]" started-at="2025-11-28T13:42:26 IST" name="invalidPasswordAndValidUsername" finished-at="2025-11-28T13:42:29 IST" duration-ms="3730" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidPasswordAndValidUsername -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testscript.LoginPageTest@48e92c5c]" started-at="2025-11-28T13:42:29 IST" name="afterMethod" finished-at="2025-11-28T13:42:29 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidPasswordAndValidUsername status=SUCCESS method=LoginPageTest.invalidPasswordAndValidUsername()[pri:3, instance:testscript.LoginPageTest@48e92c5c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testscript.LoginPageTest@48e92c5c]" started-at="2025-11-28T13:42:29 IST" name="beforeMethod" finished-at="2025-11-28T13:42:33 IST" duration-ms="3933" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="invalidUsernameAndPassqord()[pri:4, instance:testscript.LoginPageTest@48e92c5c]" started-at="2025-11-28T13:42:33 IST" name="invalidUsernameAndPassqord" finished-at="2025-11-28T13:42:34 IST" duration-ms="954" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidUsernameAndPassqord -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testscript.LoginPageTest@48e92c5c]" started-at="2025-11-28T13:42:34 IST" name="afterMethod" finished-at="2025-11-28T13:42:34 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidUsernameAndPassqord status=SUCCESS method=LoginPageTest.invalidUsernameAndPassqord()[pri:4, instance:testscript.LoginPageTest@48e92c5c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testscript.LoginPageTest -->
+      <class name="testscript.AdminUsersPageTest">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testscript.AdminUsersPageTest@4b98c80c]" started-at="2025-11-28T13:42:13 IST" name="beforeMethod" finished-at="2025-11-28T13:42:17 IST" duration-ms="3913" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyAdminUserInfo(java.lang.String,java.lang.String)[pri:1, instance:testscript.AdminUsersPageTest@4b98c80c]" started-at="2025-11-28T13:42:17 IST" name="verifyAdminUserInfo" finished-at="2025-11-28T13:42:22 IST" duration-ms="4935" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAdminUserInfo -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testscript.AdminUsersPageTest@4b98c80c]" started-at="2025-11-28T13:42:22 IST" name="afterMethod" finished-at="2025-11-28T13:42:22 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAdminUserInfo status=SUCCESS method=AdminUsersPageTest.verifyAdminUserInfo(java.lang.String,java.lang.String)[pri:1, instance:testscript.AdminUsersPageTest@4b98c80c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testscript.AdminUsersPageTest@4b98c80c]" started-at="2025-11-28T13:42:22 IST" name="beforeMethod" finished-at="2025-11-28T13:42:25 IST" duration-ms="3516" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="searchForAUserWithUsernameAndTypeTest(java.lang.String,java.lang.String)[pri:2, instance:testscript.AdminUsersPageTest@4b98c80c]" started-at="2025-11-28T13:42:25 IST" name="searchForAUserWithUsernameAndTypeTest" finished-at="2025-11-28T13:42:29 IST" duration-ms="3469" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchForAUserWithUsernameAndTypeTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testscript.AdminUsersPageTest@4b98c80c]" started-at="2025-11-28T13:42:29 IST" name="afterMethod" finished-at="2025-11-28T13:42:29 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchForAUserWithUsernameAndTypeTest status=SUCCESS method=AdminUsersPageTest.searchForAUserWithUsernameAndTypeTest(java.lang.String,java.lang.String)[pri:2, instance:testscript.AdminUsersPageTest@4b98c80c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testscript.AdminUsersPageTest@4b98c80c]" started-at="2025-11-28T13:42:29 IST" name="beforeMethod" finished-at="2025-11-28T13:42:35 IST" duration-ms="6376" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="searchForAUserWithUsernameTest(java.lang.String,java.lang.String)[pri:3, instance:testscript.AdminUsersPageTest@4b98c80c]" started-at="2025-11-28T13:42:35 IST" name="searchForAUserWithUsernameTest" finished-at="2025-11-28T13:42:38 IST" duration-ms="2519" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchForAUserWithUsernameTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testscript.AdminUsersPageTest@4b98c80c]" started-at="2025-11-28T13:42:38 IST" name="afterMethod" finished-at="2025-11-28T13:42:38 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchForAUserWithUsernameTest status=SUCCESS method=AdminUsersPageTest.searchForAUserWithUsernameTest(java.lang.String,java.lang.String)[pri:3, instance:testscript.AdminUsersPageTest@4b98c80c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testscript.AdminUsersPageTest -->
+    </test> <!-- paralleltesting -->
+  </suite> <!-- parallelTest -->
+</testng-results>
